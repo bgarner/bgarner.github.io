@@ -16,14 +16,14 @@
 title: Brent Garner
 email: bgarner@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Brent Garner and I am a software engineer in Calgary, Alberta. I am mainly focussed 
-  on building large-scale web apps. I like to think of myself as a bit of a "jack of all trades", 
-  even though I really hate that term. I also don’t like the term "full-stack developer". 
+  My name is Brent Garner and I am a software engineer in Calgary, Alberta. I like to think of myself as a bit of 
+  a "jack of all trades", even though I really hate that term. I also don’t like the term "full-stack developer". 
   I guess I want to be known as a guy who can figure stuff out and deliver, more than anything.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: brentgarner
+github_username:  bgarner
+linkedin_username: brentgarner
 
 # Build settings
 markdown: kramdown
