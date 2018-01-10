@@ -8,19 +8,31 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 
 	<style>
-		ul{
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		li{
-			padding: 5px 0px;
-		}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-		ul ul{
-			padding-left: 80px;
-			padding-bottom: 20px;
-		}
+
+
+li {
+   list-style:none; 
+}
+
+ul li {
+  line-height:2em;
+}
+
+
+
+ul ul > li {
+    margin-left: 30px;
+}
+
+
 
 	</style>
 </head>
@@ -36,21 +48,27 @@
 
 
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center" style="max-width:800px" id="band">
+  <div>
+
     <h2 class="w3-wide">TO DO</h2>
     
-    <ul>
-    	<li>&#x25A2; Portal Server</li>
+ 
+    <ul class="todo">
+    	<li>&#x25A2; Portal Server
     		<ul>
-    			<li>&#x25A2; Communication "outage"</li>	
+    			<li>&#x25A2; Communicate "outage"</li>	
     			<li>&#x25A2; Sync Production Data</li>
     			<li>&#x25A2; Test</li>
     		</ul>
+    	</li>
+
     	<li>&#x25A2; E-Learning Reports</li>
     	<li>&#x25A2; IPC Reports</li>
     	<li>&#x25A2; Marks Portal</li>
 
     </ul>
+
+
 
   </div>
 
